@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutoGalleryModelStoreContainer" CdmEntityContainer="AutoGalleryEntity">
+    <EntitySetMapping Name="Arac_Durumu_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Arac_Durumu_Tablosu">
+        <MappingFragment StoreEntitySet="Arac_Durumu_Tablosu">
+          <ScalarProperty Name="Arac_Durumu_Id" ColumnName="Arac_Durumu_Id" />
+          <ScalarProperty Name="Arac_Durumu" ColumnName="Arac_Durumu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Arac_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Arac_Tablosu">
+        <MappingFragment StoreEntitySet="Arac_Tablosu">
+          <ScalarProperty Name="Arac_Id" ColumnName="Arac_Id" />
+          <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+          <ScalarProperty Name="Model_Id" ColumnName="Model_Id" />
+          <ScalarProperty Name="Arac_Durumu_Id" ColumnName="Arac_Durumu_Id" />
+          <ScalarProperty Name="Kira_Ucreti" ColumnName="Kira_Ucreti" />
+          <ScalarProperty Name="Satis_Ucreti" ColumnName="Satis_Ucreti" />
+          <ScalarProperty Name="Yil" ColumnName="Yil" />
+          <ScalarProperty Name="Yakit" ColumnName="Yakit" />
+          <ScalarProperty Name="Km" ColumnName="Km" />
+          <ScalarProperty Name="Renk" ColumnName="Renk" />
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="Sube_Id" ColumnName="Sube_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Marka_Tablosu">
+        <MappingFragment StoreEntitySet="Marka_Tablosu">
+          <ScalarProperty Name="Marka_Id" ColumnName="Marka_Id" />
+          <ScalarProperty Name="Marka_Adi" ColumnName="Marka_Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Model_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Model_Tablosu">
+        <MappingFragment StoreEntitySet="Model_Tablosu">
+          <ScalarProperty Name="Model_Id" ColumnName="Model_Id" />
+          <ScalarProperty Name="Marka_Id" ColumnName="Marka_Id" />
+          <ScalarProperty Name="Model_Adi" ColumnName="Model_Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteri_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Musteri_Tablosu">
+        <MappingFragment StoreEntitySet="Musteri_Tablosu">
+          <ScalarProperty Name="Musteri_Id" ColumnName="Musteri_Id" />
+          <ScalarProperty Name="Musteri_Tc" ColumnName="Musteri_Tc" />
+          <ScalarProperty Name="Musteri_Adi_Soyadi" ColumnName="Musteri_Adi_Soyadi" />
+          <ScalarProperty Name="Musteri_Dogum_Tarihi" ColumnName="Musteri_Dogum_Tarihi" />
+          <ScalarProperty Name="Musteri_Telefon" ColumnName="Musteri_Telefon" />
+          <ScalarProperty Name="Musteri_Ehliyet_No" ColumnName="Musteri_Ehliyet_No" />
+          <ScalarProperty Name="Musteri_Ehliyet_Tarihi" ColumnName="Musteri_Ehliyet_Tarihi" />
+          <ScalarProperty Name="Musteri_EMail" ColumnName="Musteri_EMail" />
+          <ScalarProperty Name="Musteri_Adres" ColumnName="Musteri_Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personel_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Personel_Tablosu">
+        <MappingFragment StoreEntitySet="Personel_Tablosu">
+          <ScalarProperty Name="Personel_Sifre" ColumnName="Personel_Sifre" />
+          <ScalarProperty Name="Personel_Id" ColumnName="Personel_Id" />
+          <ScalarProperty Name="Personel_Tc" ColumnName="Personel_Tc" />
+          <ScalarProperty Name="Personel_Adi_Soyadi" ColumnName="Personel_Adi_Soyadi" />
+          <ScalarProperty Name="Personel_Dogum_Tarihi" ColumnName="Personel_Dogum_Tarihi" />
+          <ScalarProperty Name="Personel_Telefon" ColumnName="Personel_Telefon" />
+          <ScalarProperty Name="Personel_EMail" ColumnName="Personel_EMail" />
+          <ScalarProperty Name="Personel_Adres" ColumnName="Personel_Adres" />
+          <ScalarProperty Name="Personel_Resim" ColumnName="Personel_Resim" />
+          <ScalarProperty Name="Personel_Turu_Id" ColumnName="Personel_Turu_Id" />
+          <ScalarProperty Name="Sube_Id" ColumnName="Sube_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personel_Turu_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Personel_Turu_Tablosu">
+        <MappingFragment StoreEntitySet="Personel_Turu_Tablosu">
+          <ScalarProperty Name="Personel_Turu_Id" ColumnName="Personel_Turu_Id" />
+          <ScalarProperty Name="Personel_Turu" ColumnName="Personel_Turu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sozlesme_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Sozlesme_Tablosu">
+        <MappingFragment StoreEntitySet="Sozlesme_Tablosu">
+          <ScalarProperty Name="Sozlesme_Id" ColumnName="Sozlesme_Id" />
+          <ScalarProperty Name="Musteri_Id" ColumnName="Musteri_Id" />
+          <ScalarProperty Name="Arac_Id" ColumnName="Arac_Id" />
+          <ScalarProperty Name="Alıs_Tarihi" ColumnName="Alıs_Tarihi" />
+          <ScalarProperty Name="Veris_Tarihi" ColumnName="Veris_Tarihi" />
+          <ScalarProperty Name="Toplam_Ucret" ColumnName="Toplam_Ucret" />
+          <ScalarProperty Name="Sozlesme_Turu_Id" ColumnName="Sozlesme_Turu_Id" />
+          <ScalarProperty Name="Personel_Id" ColumnName="Personel_Id" />
+          <ScalarProperty Name="Sube_Id" ColumnName="Sube_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sozlesme_Turu_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Sozlesme_Turu_Tablosu">
+        <MappingFragment StoreEntitySet="Sozlesme_Turu_Tablosu">
+          <ScalarProperty Name="Sozlesme_Turu_Id" ColumnName="Sozlesme_Turu_Id" />
+          <ScalarProperty Name="Sozlesme_Turu" ColumnName="Sozlesme_Turu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subeler_Tablosu">
+      <EntityTypeMapping TypeName="AutoGalleryModel.Subeler_Tablosu">
+        <MappingFragment StoreEntitySet="Subeler_Tablosu">
+          <ScalarProperty Name="Sube_Id" ColumnName="Sube_Id" />
+          <ScalarProperty Name="Sube_Adi" ColumnName="Sube_Adi" />
+          <ScalarProperty Name="Sube_Adres" ColumnName="Sube_Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AutoGalleryModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

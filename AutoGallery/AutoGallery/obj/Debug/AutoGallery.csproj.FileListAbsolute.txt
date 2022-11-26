@@ -1,0 +1,108 @@
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe.config
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\bin\Debug\AutoGallery.pdb
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.AssemblyReference.cache
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.SuggestedBindingRedirects.cache
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGallery.resources
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Properties.Resources.resources
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.GenerateResource.cache
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CoreCompileInputs.cache
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.exe
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.pdb
+C:\Users\cengi\source\repos\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGalleryLoad.resources
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe.config
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.pdb
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csprojAssemblyReference.cache
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGallery.resources
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGalleryLoad.resources
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Properties.Resources.resources
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.GenerateResource.cache
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CoreCompileInputs.cache
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.exe
+C:\Users\cengiz.eryigit\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe.config
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.dll
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.xml
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.AssemblyReference.cache
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.SuggestedBindingRedirects.cache
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGallery.resources
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGalleryLoad.resources
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Properties.Resources.resources
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.GenerateResource.cache
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CoreCompileInputs.cache
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CopyComplete
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Login.resources
+C:\Users\cengi\Desktop\New folder (3)\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddCustomers.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe.config
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.dll
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.xml
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.AssemblyReference.cache
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.SuggestedBindingRedirects.cache
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddCars.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGallery.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGalleryLoad.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddCustomers.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.ListCars.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Login.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Properties.Resources.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateCars.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateCustomers.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.GenerateResource.cache
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CoreCompileInputs.cache
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CopyComplete
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalContract.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesContract.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddEmployee.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.ListEmployee.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateEmployee.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalCustomers.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalCars.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesCars.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesCustomers.resources
+C:\Users\cengi\Desktop\New folder\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Report.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe.config
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\AutoGallery.pdb
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.dll
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.xml
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.AssemblyReference.cache
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.SuggestedBindingRedirects.cache
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddCars.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalCustomers.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalContract.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesContract.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddEmployee.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.ListEmployee.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateEmployee.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGallery.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AddCustomers.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.ListCars.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Login.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.AutoGalleryLoad.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.RentalCars.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Properties.Resources.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateCars.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.UpdateCustomers.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesCars.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.SalesCustomers.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.Report.resources
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.GenerateResource.cache
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CoreCompileInputs.cache
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.csproj.CopyComplete
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.exe
+C:\Users\cengi\Desktop\AutoGallery\AutoGallery\AutoGallery\obj\Debug\AutoGallery.pdb

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b482bc5e09c448b88e640933ceb45d42" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoGalleryModel.Arac_Durumu_Tablosu" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Arac_Tablosu" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Marka_Tablosu" Width="1.5" PointX="3.625" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Model_Tablosu" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Musteri_Tablosu" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Personel_Tablosu" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Personel_Turu_Tablosu" Width="1.5" PointX="3.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Sozlesme_Tablosu" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Sozlesme_Turu_Tablosu" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.Subeler_Tablosu" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoGalleryModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Arac_Tablosu_Arac_Durumu_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Arac_Tablosu_Model_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Arac_Tablosu_Subeler_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sozlesme_Tablosu_Arac_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Model_Tablosu_Marka_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sozlesme_Tablosu_Musteri_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Personel_Tablosu_Personel_Turu_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Personel_Tablosu_Subeler_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sozlesme_Tablosu_Personel_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sozlesme_Tablosu_Sozlesme_Turu_Tablosu" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoGalleryModel.FK_Sozlesme_Tablosu_Subeler_Tablosu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

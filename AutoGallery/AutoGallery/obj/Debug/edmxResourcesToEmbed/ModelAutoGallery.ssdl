@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoGalleryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Arac_Durumu_Tablosu">
+    <Key>
+      <PropertyRef Name="Arac_Durumu_Id" />
+    </Key>
+    <Property Name="Arac_Durumu_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Arac_Durumu" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Arac_Tablosu">
+    <Key>
+      <PropertyRef Name="Arac_Id" />
+    </Key>
+    <Property Name="Arac_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Plaka" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Model_Id" Type="int" Nullable="false" />
+    <Property Name="Arac_Durumu_Id" Type="int" Nullable="false" />
+    <Property Name="Kira_Ucreti" Type="money" />
+    <Property Name="Satis_Ucreti" Type="money" />
+    <Property Name="Yil" Type="int" Nullable="false" />
+    <Property Name="Yakit" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Km" Type="int" Nullable="false" />
+    <Property Name="Renk" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="150" />
+    <Property Name="Sube_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Marka_Tablosu">
+    <Key>
+      <PropertyRef Name="Marka_Id" />
+    </Key>
+    <Property Name="Marka_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marka_Adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Model_Tablosu">
+    <Key>
+      <PropertyRef Name="Model_Id" />
+    </Key>
+    <Property Name="Model_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marka_Id" Type="int" Nullable="false" />
+    <Property Name="Model_Adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Musteri_Tablosu">
+    <Key>
+      <PropertyRef Name="Musteri_Id" />
+    </Key>
+    <Property Name="Musteri_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Musteri_Tc" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="Musteri_Adi_Soyadi" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="Musteri_Dogum_Tarihi" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Musteri_Telefon" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Musteri_Ehliyet_No" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Musteri_Ehliyet_Tarihi" Type="smalldatetime" Nullable="false" />
+    <Property Name="Musteri_EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Musteri_Adres" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Personel_Tablosu">
+    <Key>
+      <PropertyRef Name="Personel_Id" />
+    </Key>
+    <Property Name="Personel_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Personel_Tc" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="Personel_Adi_Soyadi" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="Personel_Dogum_Tarihi" Type="smalldatetime" Nullable="false" />
+    <Property Name="Personel_Telefon" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Personel_EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Personel_Adres" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Personel_Resim" Type="nvarchar" MaxLength="200" />
+    <Property Name="Personel_Turu_Id" Type="int" Nullable="false" />
+    <Property Name="Sube_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Personel_Turu_Tablosu">
+    <Key>
+      <PropertyRef Name="Personel_Turu_Id" />
+    </Key>
+    <Property Name="Personel_Turu_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Personel_Turu" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sozlesme_Tablosu">
+    <Key>
+      <PropertyRef Name="Sozlesme_Id" />
+    </Key>
+    <Property Name="Sozlesme_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Musteri_Id" Type="int" Nullable="false" />
+    <Property Name="Arac_Id" Type="int" Nullable="false" />
+    <Property Name="Alıs_Tarihi" Type="smalldatetime" Nullable="false" />
+    <Property Name="Veris_Tarihi" Type="smalldatetime" />
+    <Property Name="Toplam_Ucret" Type="money" Nullable="false" />
+    <Property Name="Sozlesme_Turu_Id" Type="int" Nullable="false" />
+    <Property Name="Personel_Id" Type="int" Nullable="false" />
+    <Property Name="Sube_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sozlesme_Turu_Tablosu">
+    <Key>
+      <PropertyRef Name="Sozlesme_Turu_Id" />
+    </Key>
+    <Property Name="Sozlesme_Turu_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sozlesme_Turu" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subeler_Tablosu">
+    <Key>
+      <PropertyRef Name="Sube_Id" />
+    </Key>
+    <Property Name="Sube_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sube_Adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sube_Adres" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Arac_Tablosu_Arac_Durumu_Tablosu">
+    <End Role="Arac_Durumu_Tablosu" Type="Self.Arac_Durumu_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Arac_Tablosu" Type="Self.Arac_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Arac_Durumu_Tablosu">
+        <PropertyRef Name="Arac_Durumu_Id" />
+      </Principal>
+      <Dependent Role="Arac_Tablosu">
+        <PropertyRef Name="Arac_Durumu_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Arac_Tablosu_Model_Tablosu">
+    <End Role="Model_Tablosu" Type="Self.Model_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Arac_Tablosu" Type="Self.Arac_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Model_Tablosu">
+        <PropertyRef Name="Model_Id" />
+      </Principal>
+      <Dependent Role="Arac_Tablosu">
+        <PropertyRef Name="Model_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Arac_Tablosu_Subeler_Tablosu">
+    <End Role="Subeler_Tablosu" Type="Self.Subeler_Tablosu" Multiplicity="1" />
+    <End Role="Arac_Tablosu" Type="Self.Arac_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subeler_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Principal>
+      <Dependent Role="Arac_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Model_Tablosu_Marka_Tablosu">
+    <End Role="Marka_Tablosu" Type="Self.Marka_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Model_Tablosu" Type="Self.Model_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marka_Tablosu">
+        <PropertyRef Name="Marka_Id" />
+      </Principal>
+      <Dependent Role="Model_Tablosu">
+        <PropertyRef Name="Marka_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Tablosu_Personel_Turu_Tablosu">
+    <End Role="Personel_Turu_Tablosu" Type="Self.Personel_Turu_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Personel_Tablosu" Type="Self.Personel_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personel_Turu_Tablosu">
+        <PropertyRef Name="Personel_Turu_Id" />
+      </Principal>
+      <Dependent Role="Personel_Tablosu">
+        <PropertyRef Name="Personel_Turu_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Tablosu_Subeler_Tablosu">
+    <End Role="Subeler_Tablosu" Type="Self.Subeler_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Personel_Tablosu" Type="Self.Personel_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subeler_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Principal>
+      <Dependent Role="Personel_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sozlesme_Tablosu_Arac_Tablosu">
+    <End Role="Arac_Tablosu" Type="Self.Arac_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Sozlesme_Tablosu" Type="Self.Sozlesme_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Arac_Tablosu">
+        <PropertyRef Name="Arac_Id" />
+      </Principal>
+      <Dependent Role="Sozlesme_Tablosu">
+        <PropertyRef Name="Arac_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sozlesme_Tablosu_Musteri_Tablosu">
+    <End Role="Musteri_Tablosu" Type="Self.Musteri_Tablosu" Multiplicity="1" />
+    <End Role="Sozlesme_Tablosu" Type="Self.Sozlesme_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musteri_Tablosu">
+        <PropertyRef Name="Musteri_Id" />
+      </Principal>
+      <Dependent Role="Sozlesme_Tablosu">
+        <PropertyRef Name="Musteri_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sozlesme_Tablosu_Personel_Tablosu">
+    <End Role="Personel_Tablosu" Type="Self.Personel_Tablosu" Multiplicity="1" />
+    <End Role="Sozlesme_Tablosu" Type="Self.Sozlesme_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personel_Tablosu">
+        <PropertyRef Name="Personel_Id" />
+      </Principal>
+      <Dependent Role="Sozlesme_Tablosu">
+        <PropertyRef Name="Personel_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sozlesme_Tablosu_Sozlesme_Turu_Tablosu">
+    <End Role="Sozlesme_Turu_Tablosu" Type="Self.Sozlesme_Turu_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Sozlesme_Tablosu" Type="Self.Sozlesme_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sozlesme_Turu_Tablosu">
+        <PropertyRef Name="Sozlesme_Turu_Id" />
+      </Principal>
+      <Dependent Role="Sozlesme_Tablosu">
+        <PropertyRef Name="Sozlesme_Turu_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sozlesme_Tablosu_Subeler_Tablosu">
+    <End Role="Subeler_Tablosu" Type="Self.Subeler_Tablosu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Sozlesme_Tablosu" Type="Self.Sozlesme_Tablosu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subeler_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Principal>
+      <Dependent Role="Sozlesme_Tablosu">
+        <PropertyRef Name="Sube_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AutoGalleryModelStoreContainer">
+    <EntitySet Name="Arac_Durumu_Tablosu" EntityType="Self.Arac_Durumu_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Arac_Tablosu" EntityType="Self.Arac_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Marka_Tablosu" EntityType="Self.Marka_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Model_Tablosu" EntityType="Self.Model_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Musteri_Tablosu" EntityType="Self.Musteri_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personel_Tablosu" EntityType="Self.Personel_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personel_Turu_Tablosu" EntityType="Self.Personel_Turu_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sozlesme_Tablosu" EntityType="Self.Sozlesme_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sozlesme_Turu_Tablosu" EntityType="Self.Sozlesme_Turu_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subeler_Tablosu" EntityType="Self.Subeler_Tablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Arac_Tablosu_Arac_Durumu_Tablosu" Association="Self.FK_Arac_Tablosu_Arac_Durumu_Tablosu">
+      <End Role="Arac_Durumu_Tablosu" EntitySet="Arac_Durumu_Tablosu" />
+      <End Role="Arac_Tablosu" EntitySet="Arac_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Arac_Tablosu_Model_Tablosu" Association="Self.FK_Arac_Tablosu_Model_Tablosu">
+      <End Role="Model_Tablosu" EntitySet="Model_Tablosu" />
+      <End Role="Arac_Tablosu" EntitySet="Arac_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Arac_Tablosu_Subeler_Tablosu" Association="Self.FK_Arac_Tablosu_Subeler_Tablosu">
+      <End Role="Subeler_Tablosu" EntitySet="Subeler_Tablosu" />
+      <End Role="Arac_Tablosu" EntitySet="Arac_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Model_Tablosu_Marka_Tablosu" Association="Self.FK_Model_Tablosu_Marka_Tablosu">
+      <End Role="Marka_Tablosu" EntitySet="Marka_Tablosu" />
+      <End Role="Model_Tablosu" EntitySet="Model_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Tablosu_Personel_Turu_Tablosu" Association="Self.FK_Personel_Tablosu_Personel_Turu_Tablosu">
+      <End Role="Personel_Turu_Tablosu" EntitySet="Personel_Turu_Tablosu" />
+      <End Role="Personel_Tablosu" EntitySet="Personel_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Tablosu_Subeler_Tablosu" Association="Self.FK_Personel_Tablosu_Subeler_Tablosu">
+      <End Role="Subeler_Tablosu" EntitySet="Subeler_Tablosu" />
+      <End Role="Personel_Tablosu" EntitySet="Personel_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sozlesme_Tablosu_Arac_Tablosu" Association="Self.FK_Sozlesme_Tablosu_Arac_Tablosu">
+      <End Role="Arac_Tablosu" EntitySet="Arac_Tablosu" />
+      <End Role="Sozlesme_Tablosu" EntitySet="Sozlesme_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sozlesme_Tablosu_Musteri_Tablosu" Association="Self.FK_Sozlesme_Tablosu_Musteri_Tablosu">
+      <End Role="Musteri_Tablosu" EntitySet="Musteri_Tablosu" />
+      <End Role="Sozlesme_Tablosu" EntitySet="Sozlesme_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sozlesme_Tablosu_Personel_Tablosu" Association="Self.FK_Sozlesme_Tablosu_Personel_Tablosu">
+      <End Role="Personel_Tablosu" EntitySet="Personel_Tablosu" />
+      <End Role="Sozlesme_Tablosu" EntitySet="Sozlesme_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sozlesme_Tablosu_Sozlesme_Turu_Tablosu" Association="Self.FK_Sozlesme_Tablosu_Sozlesme_Turu_Tablosu">
+      <End Role="Sozlesme_Turu_Tablosu" EntitySet="Sozlesme_Turu_Tablosu" />
+      <End Role="Sozlesme_Tablosu" EntitySet="Sozlesme_Tablosu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sozlesme_Tablosu_Subeler_Tablosu" Association="Self.FK_Sozlesme_Tablosu_Subeler_Tablosu">
+      <End Role="Subeler_Tablosu" EntitySet="Subeler_Tablosu" />
+      <End Role="Sozlesme_Tablosu" EntitySet="Sozlesme_Tablosu" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
