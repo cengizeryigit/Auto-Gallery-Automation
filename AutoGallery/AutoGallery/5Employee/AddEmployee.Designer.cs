@@ -308,25 +308,25 @@
 
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxSecurityNumber;
-        private System.Windows.Forms.Label AddEmployeeLabelSecurityNumber;
-        private System.Windows.Forms.Label AddEmployeeLabelNameSurname;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxNameSurname;
-        private System.Windows.Forms.Label AddEmployeeLabelTelephone;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxTelephone;
-        private System.Windows.Forms.Label AddEmployeeLabelAdress;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxAdress;
         private System.Windows.Forms.DateTimePicker AddEmployeeDateTimePickerDateofBirth;
-        private System.Windows.Forms.Label AddEmployeeLabelDateofBirth;
         private System.Windows.Forms.PictureBox pictureBox2;
         public System.Windows.Forms.ComboBox AddEmployeeComboBoxBranch;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.ComboBox AddEmployeeComboBoxEmployeType;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label AddEmployeeLabelEMail;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxEMail;
-        private System.Windows.Forms.Label AddEmployeeLabelPassword;
         private System.Windows.Forms.TextBox AddEmployeeTextBoxPassword;
-        private System.Windows.Forms.Button AddEmployeeButtonAddEmployee;
+        public System.Windows.Forms.Label AddEmployeeLabelSecurityNumber;
+        public System.Windows.Forms.Label AddEmployeeLabelNameSurname;
+        public System.Windows.Forms.Label AddEmployeeLabelTelephone;
+        public System.Windows.Forms.Label AddEmployeeLabelAdress;
+        public System.Windows.Forms.Label AddEmployeeLabelDateofBirth;
+        public System.Windows.Forms.Label AddEmployeeLabelEMail;
+        public System.Windows.Forms.Label AddEmployeeLabelPassword;
+        public System.Windows.Forms.Button AddEmployeeButtonAddEmployee;
     }
 }

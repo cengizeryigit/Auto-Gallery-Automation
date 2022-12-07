@@ -131,10 +131,10 @@
         #endregion
 
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
-        private System.Windows.Forms.Button ListCarsButtonListCars;
         public System.Windows.Forms.ComboBox ListCarsComboBox;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button ListAllCarsButtonListAllCars;
         private System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.Button ListCarsButtonListCars;
+        public System.Windows.Forms.Button ListAllCarsButtonListAllCars;
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace AutoGallery
 {
     internal static class Program
@@ -16,7 +17,11 @@ namespace AutoGallery
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            
+            Application.Run(new LoginRun());
+
+
+
         }
     }
 }

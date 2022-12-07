@@ -14,10 +14,11 @@ namespace AutoGallery
     {
         public Login()
         {
+            
             InitializeComponent();
         }
-
-        public static string Wronglogin = "User was not found";
+       
+        public string Wronglogin = "User was not found";
         public static string BranchName;
         public static int BranchId;
         public static string EmployeeType;
@@ -27,7 +28,6 @@ namespace AutoGallery
         
         private void Login_Load(object sender, EventArgs e)
         {
-            Refresh();
             LoginComboBox.DataSource = DatabaseCon.autoGalleryEntity.Subeler_Tablosu.ToList();
             LoginComboBox.ValueMember = "Sube_Id";
             LoginComboBox.DisplayMember = "Sube_Adi";
@@ -69,13 +69,15 @@ namespace AutoGallery
 
         private void LoginLabelClearFields_Click(object sender, EventArgs e)
         {
+           
             LoginTextBoxUsername.Clear();
             LoginTextBoxPassword.Clear();
             LoginTextBoxUsername.Focus();
         }
 
-        
+        private void LoginLabelLogin_Click(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

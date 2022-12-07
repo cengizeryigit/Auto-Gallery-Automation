@@ -39,6 +39,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -138,6 +139,17 @@
     <Compile Include="4Contract\RentalCars.Designer.cs">
       <DependentUpon>RentalCars.cs</DependentUpon>
     </Compile>
+    <Compile Include="8Localization\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="1LoginAndMenu\LoginRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1LoginAndMenu\LoginRun.Designer.cs">
+      <DependentUpon>LoginRun.cs</DependentUpon>
+    </Compile>
     <Compile Include="Marka_Tablosu.cs">
       <DependentUpon>AutoGalleryEntity.tt</DependentUpon>
     </Compile>
@@ -185,6 +197,11 @@
     <Compile Include="6Report\Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
+    <Compile Include="8Localization\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Sozlesme_Tablosu.cs">
       <DependentUpon>AutoGalleryEntity.tt</DependentUpon>
     </Compile>
@@ -215,6 +232,12 @@
     <Compile Include="5Employee\UpdateEmployee.Designer.cs">
       <DependentUpon>UpdateEmployee.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="1LoginAndMenu\Login.en.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1LoginAndMenu\LoginRun.resx">
+      <DependentUpon>LoginRun.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="3Cars\AddCars.resx">
       <DependentUpon>AddCars.cs</DependentUpon>
     </EmbeddedResource>
@@ -254,6 +277,14 @@
     <EmbeddedResource Include="4Contract\RentalCars.resx">
       <DependentUpon>RentalCars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="8Localization\Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8Localization\Localization.tr-TR.resx" />
+    <EmbeddedResource Include="8Localization\Localization.fr-FR.resx" />
+    <EmbeddedResource Include="8Localization\Localization.es-ES.resx" />
+    <EmbeddedResource Include="8Localization\Localization.jp-JP.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -295,6 +326,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="8Localization\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

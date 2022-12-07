@@ -17,51 +17,51 @@ namespace AutoGallery
             InitializeComponent();
         }
 
-        private void AddEmployeeButtonAddEmployee_Click(object sender, EventArgs e)
+        private void ReportButtonReport_Click(object sender, EventArgs e)
         {
             if (radioButton1.Checked == true)
             {
-               
+
             }
             else if (radioButton2.Checked == true)
             {
-               
+
             }
             else if (radioButton3.Checked == true)
             {
-               
+
             }
             else if (radioButton4.Checked == true)
             {
-               
+
             }
             else if (radioButton5.Checked == true)
             {
-               
+
             }
             else if (radioButton6.Checked == true)
             {
-                
+
             }
             else if (radioButton7.Checked == true)
             {
-               
+
             }
             else if (radioButton8.Checked == true)
             {
-                
+
             }
             else if (radioButton9.Checked == true)
             {
-               
+
             }
             else if (radioButton10.Checked == true)
             {
-               
+
             }
             else if (radioButton11.Checked == true)
             {
-               
+
             }
         }
     }

@@ -62,7 +62,7 @@
             // LoginTextBoxPassword
             // 
             this.LoginTextBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LoginTextBoxPassword.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginTextBoxPassword.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.LoginTextBoxPassword.ForeColor = System.Drawing.Color.Black;
             this.LoginTextBoxPassword.Location = new System.Drawing.Point(58, 342);
             this.LoginTextBoxPassword.Multiline = true;
@@ -73,13 +73,14 @@
             // LoginLabelLogin
             // 
             this.LoginLabelLogin.AutoSize = true;
-            this.LoginLabelLogin.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginLabelLogin.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold);
             this.LoginLabelLogin.ForeColor = System.Drawing.Color.Black;
             this.LoginLabelLogin.Location = new System.Drawing.Point(109, 119);
             this.LoginLabelLogin.Name = "LoginLabelLogin";
             this.LoginLabelLogin.Size = new System.Drawing.Size(133, 35);
             this.LoginLabelLogin.TabIndex = 21;
             this.LoginLabelLogin.Text = "LOG IN";
+            this.LoginLabelLogin.Click += new System.EventHandler(this.LoginLabelLogin_Click);
             // 
             // LoginPictureboxUsername
             // 
@@ -121,7 +122,7 @@
             // 
             this.LoginButtonLogin.BackColor = System.Drawing.Color.Black;
             this.LoginButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginButtonLogin.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginButtonLogin.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.LoginButtonLogin.ForeColor = System.Drawing.Color.White;
             this.LoginButtonLogin.Location = new System.Drawing.Point(23, 442);
             this.LoginButtonLogin.Name = "LoginButtonLogin";
@@ -134,7 +135,7 @@
             // LoginLabelClearFields
             // 
             this.LoginLabelClearFields.AutoSize = true;
-            this.LoginLabelClearFields.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginLabelClearFields.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold);
             this.LoginLabelClearFields.ForeColor = System.Drawing.Color.Black;
             this.LoginLabelClearFields.Location = new System.Drawing.Point(234, 422);
             this.LoginLabelClearFields.Name = "LoginLabelClearFields";
@@ -158,7 +159,7 @@
             // LoginTextBoxUsername
             // 
             this.LoginTextBoxUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LoginTextBoxUsername.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginTextBoxUsername.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.LoginTextBoxUsername.ForeColor = System.Drawing.Color.Black;
             this.LoginTextBoxUsername.Location = new System.Drawing.Point(58, 271);
             this.LoginTextBoxUsername.Multiline = true;
@@ -170,7 +171,7 @@
             // 
             this.LoginComboBox.BackColor = System.Drawing.Color.White;
             this.LoginComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LoginComboBox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LoginComboBox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
             this.LoginComboBox.FormattingEnabled = true;
             this.LoginComboBox.Location = new System.Drawing.Point(58, 196);
             this.LoginComboBox.Name = "LoginComboBox";
@@ -219,6 +220,7 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoginPictureboxUsername)).EndInit();
@@ -233,17 +235,17 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox LoginTextBoxPassword;
-        private System.Windows.Forms.Label LoginLabelLogin;
         private System.Windows.Forms.PictureBox LoginPictureboxUsername;
         private System.Windows.Forms.PictureBox LoginPictureboxPassword;
         private System.Windows.Forms.Panel LoginPanel1;
         private System.Windows.Forms.Panel LoginPanel2;
-        private System.Windows.Forms.Button LoginButtonLogin;
-        private System.Windows.Forms.Label LoginLabelClearFields;
-        private System.Windows.Forms.Label LoginLabelExit;
         private System.Windows.Forms.TextBox LoginTextBoxUsername;
         public System.Windows.Forms.ComboBox LoginComboBox;
         private System.Windows.Forms.PictureBox LoginPictureboxGallery;
         private System.Windows.Forms.Panel panel2;
+        public System.Windows.Forms.Label LoginLabelLogin;
+        public System.Windows.Forms.Button LoginButtonLogin;
+        public System.Windows.Forms.Label LoginLabelClearFields;
+        public System.Windows.Forms.Label LoginLabelExit;
     }
 }

@@ -63,7 +63,7 @@ namespace AutoGallery
             AutoGallerydataGridView.DataSource = listemployee.ToList();
         }
 
-        private void ListAllCarsButtonListAllCars_Click(object sender, EventArgs e)
+        private void ListAllEmployeeButtonListAllEmployee_Click(object sender, EventArgs e)
         {
             int val;
             Int32.TryParse(ListEmployeeComboBox.SelectedValue.ToString(), out val);
@@ -73,7 +73,7 @@ namespace AutoGallery
                                tur in DatabaseCon.autoGalleryEntity.Personel_Turu_Tablosu on personel.Personel_Turu_Id equals tur.Personel_Turu_Id
                                join
                                sube in DatabaseCon.autoGalleryEntity.Subeler_Tablosu on personel.Sube_Id equals sube.Sube_Id
-                               where personel.Sube_Id == val 
+                               where personel.Sube_Id == val
                                select new
                                {
                                    ID = personel.Personel_Id,

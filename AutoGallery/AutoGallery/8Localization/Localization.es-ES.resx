@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCarsButtonAddCars" xml:space="preserve">
+    <value>AÑADIR COCHES</value>
+  </data>
+  <data name="AddCarsLabelColour" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="AddCarsLabelFuel" xml:space="preserve">
+    <value>Combustible</value>
+  </data>
+  <data name="AddCarsLabelKm" xml:space="preserve">
+    <value>Kilómetros</value>
+  </data>
+  <data name="AddCarsLabelPlate" xml:space="preserve">
+    <value>Lámina</value>
+  </data>
+  <data name="AddCarsLabelRentMoney" xml:space="preserve">
+    <value>Prestamo</value>
+  </data>
+  <data name="AddCarsLabelSalesMoney" xml:space="preserve">
+    <value>dinero de las ventas</value>
+  </data>
+  <data name="AddCarsLabelYear" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="AddCarstoolStripMenuItem" xml:space="preserve">
+    <value>Agregar autos</value>
+  </data>
+  <data name="AddCustomersButtonAddCustomers" xml:space="preserve">
+    <value>Agregar clientes</value>
+  </data>
+  <data name="AddCustomersLabelAddress" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="AddCustomersLabelDateofBirth" xml:space="preserve">
+    <value>Fecha de nacimiento</value>
+  </data>
+  <data name="AddCustomersLabelDriversLicenseDate" xml:space="preserve">
+    <value>Fecha de licencia de conducir</value>
+  </data>
+  <data name="AddCustomersLabelDrivingLicenseNunmber" xml:space="preserve">
+    <value>Número de licencia de conducir</value>
+  </data>
+  <data name="AddCustomersLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="AddCustomersLabelNameSurname" xml:space="preserve">
+    <value>Nombre Apellido</value>
+  </data>
+  <data name="AddCustomersLabelSecurityNumber" xml:space="preserve">
+    <value>Numero de seguridad</value>
+  </data>
+  <data name="AddCustomersLabelTelephone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="AddCustomerstoolStripMenuItem" xml:space="preserve">
+    <value>Agregar clientes</value>
+  </data>
+  <data name="AddEmployeeButtonAddEmployee" xml:space="preserve">
+    <value>AÑADIR EMPLEADO</value>
+  </data>
+  <data name="AddEmployeeLabelPassword" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="AddEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Agregar empleada</value>
+  </data>
+  <data name="CarsToolStripMenuItem" xml:space="preserve">
+    <value>Coches</value>
+  </data>
+  <data name="ChooseCustomersButtonListCustomer" xml:space="preserve">
+    <value>lista de clientes</value>
+  </data>
+  <data name="ContractToolStripMenuItem" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="CustomersToolStripMenuItem" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="EmployeeToolStripMenuItem" xml:space="preserve">
+    <value>Empleada</value>
+  </data>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="LanguageToolStripMenuItem" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemEnglish" xml:space="preserve">
+    <value>Inglesa</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemFrench" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemJapanase" xml:space="preserve">
+    <value>Japonés</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemSpanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemTurkish" xml:space="preserve">
+    <value>Turco</value>
+  </data>
+  <data name="ListAllCarsButtonListAllCars" xml:space="preserve">
+    <value>LISTA DE TODOS LOS COCHES</value>
+  </data>
+  <data name="ListAllEmployeeButtonListAllEmployee" xml:space="preserve">
+    <value>LISTA DE TODAS LAS EMPLEADAS</value>
+  </data>
+  <data name="ListCarsButtonListCars" xml:space="preserve">
+    <value>LISTA DE COCHES</value>
+  </data>
+  <data name="ListCarstoolStripMenuItem" xml:space="preserve">
+    <value>Lista de coches</value>
+  </data>
+  <data name="ListEmployeeButtonListEmployee" xml:space="preserve">
+    <value>LISTA DE EMPLEADA</value>
+  </data>
+  <data name="ListEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Lista de empleados</value>
+  </data>
+  <data name="LoginButtonLogin" xml:space="preserve">
+    <value>INICIAR SESIÓN</value>
+  </data>
+  <data name="LoginLabelClearFields" xml:space="preserve">
+    <value>Borrar campos</value>
+  </data>
+  <data name="LoginLabelExit" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="LoginLabelLogin" xml:space="preserve">
+    <value>INICIAR SESIÓN</value>
+  </data>
+  <data name="radioButton1" xml:space="preserve">
+    <value>Clientes que alquilan un coche</value>
+  </data>
+  <data name="radioButton10" xml:space="preserve">
+    <value>Sucursal con al menos alquiler de coches</value>
+  </data>
+  <data name="radioButton11" xml:space="preserve">
+    <value>Sucursal con menor número de vehículos</value>
+  </data>
+  <data name="radioButton2" xml:space="preserve">
+    <value>Principales clientes de alquiler de coches</value>
+  </data>
+  <data name="radioButton3" xml:space="preserve">
+    <value>Clientes que compran vehículos</value>
+  </data>
+  <data name="radioButton4" xml:space="preserve">
+    <value>Empleada más alquilada</value>
+  </data>
+  <data name="radioButton5" xml:space="preserve">
+    <value>Empleada de vehículo más vendida</value>
+  </data>
+  <data name="radioButton6" xml:space="preserve">
+    <value>Empleada mínima de alquiler de coches</value>
+  </data>
+  <data name="radioButton7" xml:space="preserve">
+    <value>Vehículos menos vendidos</value>
+  </data>
+  <data name="radioButton8" xml:space="preserve">
+    <value>Sucursal con más coches de alquiler</value>
+  </data>
+  <data name="radioButton9" xml:space="preserve">
+    <value>Sucursal con más vehículos</value>
+  </data>
+  <data name="RentalCarsButtonListCar" xml:space="preserve">
+    <value>Lista de coches</value>
+  </data>
+  <data name="RentalContactButtonCalculate" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="RentalContactButtonCar" xml:space="preserve">
+    <value>Elegir</value>
+  </data>
+  <data name="RentalContactButtonCustomer" xml:space="preserve">
+    <value>Elegir</value>
+  </data>
+  <data name="RentalContactButtonListRentalContract" xml:space="preserve">
+    <value>Listar contrato de alquiler</value>
+  </data>
+  <data name="RentalContactButtonListRentCar" xml:space="preserve">
+    <value>Lista Alquiler Coche</value>
+  </data>
+  <data name="RentalContactButtonRentalContact" xml:space="preserve">
+    <value>CONTRATO DE RENTA</value>
+  </data>
+  <data name="RentalContactButtonVehicleDelivered" xml:space="preserve">
+    <value>Vehículo Entregado</value>
+  </data>
+  <data name="RentalContractLabelAdress" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="RentalContractLabelBrand" xml:space="preserve">
+    <value>Marca</value>
+  </data>
+  <data name="RentalContractLabelFirstDay" xml:space="preserve">
+    <value>Primer día</value>
+  </data>
+  <data name="RentalContractLabelLastDay" xml:space="preserve">
+    <value>Último día</value>
+  </data>
+  <data name="RentalContractLabelModel" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="RentalContractLabelNameSurname" xml:space="preserve">
+    <value>Nombre Apellido</value>
+  </data>
+  <data name="RentalContractLabelPlate" xml:space="preserve">
+    <value>Lámina</value>
+  </data>
+  <data name="RentalContractLabelRentMoney" xml:space="preserve">
+    <value>Prestamo</value>
+  </data>
+  <data name="RentalContractLabelSecurityNumber" xml:space="preserve">
+    <value>Numero de seguridad</value>
+  </data>
+  <data name="RentalContractLabelTelephone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="RentalContractLabelTotalFee" xml:space="preserve">
+    <value>Costo total</value>
+  </data>
+  <data name="RentalContracttoolStripMenuItem0" xml:space="preserve">
+    <value>Contrato de renta</value>
+  </data>
+  <data name="ReportButtonReport" xml:space="preserve">
+    <value>REPORTE</value>
+  </data>
+  <data name="ReportToolStripMenuItem" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="SalesCarsButtonListCar" xml:space="preserve">
+    <value>Lista de coches</value>
+  </data>
+  <data name="SalesContactButtonCar" xml:space="preserve">
+    <value>Elegir</value>
+  </data>
+  <data name="SalesContactButtonCustomer" xml:space="preserve">
+    <value>Elegir</value>
+  </data>
+  <data name="SalesContactButtonRentalContact" xml:space="preserve">
+    <value>CONTRATO DE VENTA</value>
+  </data>
+  <data name="SalesContractLabelPurchaseDate" xml:space="preserve">
+    <value>Fecha de compra</value>
+  </data>
+  <data name="SalesContractLabelSalesMoney" xml:space="preserve">
+    <value>dinero de las ventas</value>
+  </data>
+  <data name="SalesContracttoolStripMenuItem" xml:space="preserve">
+    <value>Contrato de venta</value>
+  </data>
+  <data name="SalesCustomersButtonListCustomer" xml:space="preserve">
+    <value>lista de clientes</value>
+  </data>
+  <data name="UpdateCarsButtonUpdateCars" xml:space="preserve">
+    <value>ACTUALIZAR COCHES</value>
+  </data>
+  <data name="UpdateCarstoolStripMenuItem" xml:space="preserve">
+    <value>Update Cars</value>
+  </data>
+  <data name="UpdateCustomersButtonUpdateCustomers" xml:space="preserve">
+    <value>Update Customers</value>
+  </data>
+  <data name="UpdateCustomersLabelAddress" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="UpdateCustomersLabelDateofBirth" xml:space="preserve">
+    <value>Fecha de nacimiento</value>
+  </data>
+  <data name="UpdateCustomersLabelDriversLicenseDate" xml:space="preserve">
+    <value>Fecha de licencia de conducir</value>
+  </data>
+  <data name="UpdateCustomersLabelDrivingLicenseNunmber" xml:space="preserve">
+    <value>Número de licencia de conducir</value>
+  </data>
+  <data name="UpdateCustomersLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="UpdateCustomersLabelNameSurname" xml:space="preserve">
+    <value>Nombre Apellido</value>
+  </data>
+  <data name="UpdateCustomersLabelSecurityNumber" xml:space="preserve">
+    <value>Numero de seguridad</value>
+  </data>
+  <data name="UpdateCustomersLabelTelephone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="UpdateCustomerstoolStripMenuItem" xml:space="preserve">
+    <value>Actualizar clientes</value>
+  </data>
+  <data name="UpdateEmployeeButtonUpdateEmployee" xml:space="preserve">
+    <value>ACTUALIZAR EMPLEADO</value>
+  </data>
+  <data name="UpdateEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Actualizar empleada</value>
+  </data>
+  <data name="UserToolStripMenuItem" xml:space="preserve">
+    <value>Usuaria</value>
+  </data>
+  <data name="Wronglogin" xml:space="preserve">
+    <value>El usuario no fue encontrado</value>
+  </data>
+</root>

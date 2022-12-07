@@ -354,20 +354,20 @@
         private System.Windows.Forms.Panel panel2;
         public System.Windows.Forms.ComboBox AddCarsComboBoxModel;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label AddCarsLabelPlate;
         private System.Windows.Forms.TextBox AddCarsTextBoxPlate;
-        private System.Windows.Forms.Label AddCarsLabelRentMoney;
         private System.Windows.Forms.TextBox AddCarsTextBoxRentMoney;
-        private System.Windows.Forms.Label AddCarsLabelSalesMoney;
         private System.Windows.Forms.TextBox AddCarsTextBoxSalesMoney;
-        private System.Windows.Forms.Label AddCarsLabelYear;
         private System.Windows.Forms.TextBox AddCarsTextBoxYear;
-        private System.Windows.Forms.Label AddCarsLabelFuel;
         private System.Windows.Forms.TextBox AddCarsTextBoxFuel;
-        private System.Windows.Forms.Label AddCarsLabelKm;
         private System.Windows.Forms.TextBox AddCarsTextBoxKm;
-        private System.Windows.Forms.Label AddCarsLabelColour;
         private System.Windows.Forms.TextBox AddCarsTextBoxColour;
-        private System.Windows.Forms.Button AddCarsButtonAddCars;
+        public System.Windows.Forms.Label AddCarsLabelPlate;
+        public System.Windows.Forms.Label AddCarsLabelRentMoney;
+        public System.Windows.Forms.Label AddCarsLabelSalesMoney;
+        public System.Windows.Forms.Label AddCarsLabelYear;
+        public System.Windows.Forms.Label AddCarsLabelFuel;
+        public System.Windows.Forms.Label AddCarsLabelKm;
+        public System.Windows.Forms.Label AddCarsLabelColour;
+        public System.Windows.Forms.Button AddCarsButtonAddCars;
     }
 }

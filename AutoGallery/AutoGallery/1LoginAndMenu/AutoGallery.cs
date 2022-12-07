@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoGallery._8Localization;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -121,6 +122,27 @@ namespace AutoGallery
             FormControl.MdiHide();
             FormControl.report.MdiParent = this;
             FormControl.report.Show();
+        }
+
+        private void LanguagetoolStripMenuItemEnglish_Click(object sender, EventArgs e)
+        {
+            Settings.Default.dil = "English";
+            Settings.Default.Save();
+            FormControl.Lang();
+        }
+
+        private void LanguagetoolStripMenuItemTurkish_Click(object sender, EventArgs e)
+        {
+            Settings.Default.dil = "Turkish";
+            Settings.Default.Save();
+            FormControl.Lang();
+        }
+
+        private void LanguagetoolStripMenuItemSpanish_Click(object sender, EventArgs e)
+        {
+            Settings.Default.dil = "Spanish";
+            Settings.Default.Save();
+            FormControl.Lang();
         }
     }
 }

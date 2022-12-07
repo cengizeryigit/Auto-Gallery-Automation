@@ -344,22 +344,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button UpdateCarsButtonUpdateCars;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxColour;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxKm;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxFuel;
-        private System.Windows.Forms.Label UpdateCarsLabelColour;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxYear;
-        private System.Windows.Forms.Label UpdateCarsLabelKm;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxSalesMoney;
-        private System.Windows.Forms.Label UpdateCarsLabelFuel;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxRentMoney;
-        private System.Windows.Forms.Label UpdateCarsLabelYear;
         private System.Windows.Forms.TextBox UpdateCarsTextBoxPlate;
-        private System.Windows.Forms.Label UpdateCarsLabelSalesMoney;
-        private System.Windows.Forms.Label UpdateCarsLabelRentMoney;
-        private System.Windows.Forms.Label UpdateCarsLabelPlate;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -370,5 +361,13 @@
         public System.Windows.Forms.ComboBox UpdateCarsComboBoxBranch;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
+        public System.Windows.Forms.Button UpdateCarsButtonUpdateCars;
+        public System.Windows.Forms.Label UpdateCarsLabelColour;
+        public System.Windows.Forms.Label UpdateCarsLabelKm;
+        public System.Windows.Forms.Label UpdateCarsLabelFuel;
+        public System.Windows.Forms.Label UpdateCarsLabelYear;
+        public System.Windows.Forms.Label UpdateCarsLabelSalesMoney;
+        public System.Windows.Forms.Label UpdateCarsLabelRentMoney;
+        public System.Windows.Forms.Label UpdateCarsLabelPlate;
     }
 }

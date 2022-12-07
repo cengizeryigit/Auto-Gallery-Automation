@@ -40,7 +40,7 @@
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.AddEmployeeButtonAddEmployee = new System.Windows.Forms.Button();
+            this.ReportButtonReport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AutoGallerydataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,10 +99,10 @@
             this.radioButton4.Location = new System.Drawing.Point(330, 34);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(195, 22);
+            this.radioButton4.Size = new System.Drawing.Size(193, 22);
             this.radioButton4.TabIndex = 46;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Most rented personnel";
+            this.radioButton4.Text = "Most rented employee";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton5
@@ -196,19 +196,19 @@
             this.radioButton11.Text = "Branch with the least number of vehicles";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
-            // AddEmployeeButtonAddEmployee
+            // ReportButtonReport
             // 
-            this.AddEmployeeButtonAddEmployee.BackColor = System.Drawing.Color.Black;
-            this.AddEmployeeButtonAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddEmployeeButtonAddEmployee.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.AddEmployeeButtonAddEmployee.ForeColor = System.Drawing.Color.White;
-            this.AddEmployeeButtonAddEmployee.Location = new System.Drawing.Point(330, 234);
-            this.AddEmployeeButtonAddEmployee.Name = "AddEmployeeButtonAddEmployee";
-            this.AddEmployeeButtonAddEmployee.Size = new System.Drawing.Size(157, 34);
-            this.AddEmployeeButtonAddEmployee.TabIndex = 47;
-            this.AddEmployeeButtonAddEmployee.Text = "REPORT";
-            this.AddEmployeeButtonAddEmployee.UseVisualStyleBackColor = false;
-            this.AddEmployeeButtonAddEmployee.Click += new System.EventHandler(this.AddEmployeeButtonAddEmployee_Click);
+            this.ReportButtonReport.BackColor = System.Drawing.Color.Black;
+            this.ReportButtonReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReportButtonReport.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ReportButtonReport.ForeColor = System.Drawing.Color.White;
+            this.ReportButtonReport.Location = new System.Drawing.Point(330, 234);
+            this.ReportButtonReport.Name = "ReportButtonReport";
+            this.ReportButtonReport.Size = new System.Drawing.Size(157, 34);
+            this.ReportButtonReport.TabIndex = 47;
+            this.ReportButtonReport.Text = "REPORT";
+            this.ReportButtonReport.UseVisualStyleBackColor = false;
+            this.ReportButtonReport.Click += new System.EventHandler(this.ReportButtonReport_Click);
             // 
             // Report
             // 
@@ -216,7 +216,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(815, 515);
-            this.Controls.Add(this.AddEmployeeButtonAddEmployee);
+            this.Controls.Add(this.ReportButtonReport);
             this.Controls.Add(this.radioButton11);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.radioButton10);
@@ -242,17 +242,17 @@
         #endregion
 
         public System.Windows.Forms.DataGridView AutoGallerydataGridView;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.Button AddEmployeeButtonAddEmployee;
+        public System.Windows.Forms.RadioButton radioButton1;
+        public System.Windows.Forms.RadioButton radioButton3;
+        public System.Windows.Forms.RadioButton radioButton2;
+        public System.Windows.Forms.RadioButton radioButton4;
+        public System.Windows.Forms.RadioButton radioButton5;
+        public System.Windows.Forms.RadioButton radioButton6;
+        public System.Windows.Forms.RadioButton radioButton7;
+        public System.Windows.Forms.RadioButton radioButton8;
+        public System.Windows.Forms.RadioButton radioButton9;
+        public System.Windows.Forms.RadioButton radioButton10;
+        public System.Windows.Forms.RadioButton radioButton11;
+        public System.Windows.Forms.Button ReportButtonReport;
     }
 }

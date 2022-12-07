@@ -65,14 +65,20 @@
             this.UsertoolStripMenuItemBranch = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.UsertoolStripMenuItemType = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.LanguageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.LanguagetoolStripMenuItemEnglish = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.LanguagetoolStripMenuItemTurkish = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.LanguagetoolStripMenuItemSpanish = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.LanguagetoolStripMenuItemFrench = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.LanguagetoolStripMenuItemJapanase = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator24 = new System.Windows.Forms.ToolStripSeparator();
             this.ExitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -318,7 +324,6 @@
             this.toolStripSeparator3,
             this.UsertoolStripMenuItemType,
             this.toolStripSeparator4});
-            this.UserToolStripMenuItem.Margin = new System.Windows.Forms.Padding(545, 0, 0, 0);
             this.UserToolStripMenuItem.Name = "UserToolStripMenuItem";
             this.UserToolStripMenuItem.Size = new System.Drawing.Size(70, 27);
             this.UserToolStripMenuItem.Text = "User";
@@ -326,52 +331,53 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(81, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // UsertoolStripMenuItemName
             // 
             this.UsertoolStripMenuItemName.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.UsertoolStripMenuItemName.Name = "UsertoolStripMenuItemName";
-            this.UsertoolStripMenuItemName.Size = new System.Drawing.Size(84, 22);
+            this.UsertoolStripMenuItemName.Size = new System.Drawing.Size(180, 22);
             this.UsertoolStripMenuItemName.Text = ".";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(81, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // UsertoolStripMenuItemBranch
             // 
             this.UsertoolStripMenuItemBranch.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.UsertoolStripMenuItemBranch.Name = "UsertoolStripMenuItemBranch";
-            this.UsertoolStripMenuItemBranch.Size = new System.Drawing.Size(84, 22);
+            this.UsertoolStripMenuItemBranch.Size = new System.Drawing.Size(180, 22);
             this.UsertoolStripMenuItemBranch.Text = ".";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(81, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // UsertoolStripMenuItemType
             // 
             this.UsertoolStripMenuItemType.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.UsertoolStripMenuItemType.Name = "UsertoolStripMenuItemType";
-            this.UsertoolStripMenuItemType.Size = new System.Drawing.Size(84, 22);
+            this.UsertoolStripMenuItemType.Size = new System.Drawing.Size(180, 22);
             this.UsertoolStripMenuItemType.Text = ".";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(81, 6);
             // 
             // LanguageToolStripMenuItem
             // 
             this.LanguageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator5,
-            this.toolStripMenuItem2,
+            this.LanguagetoolStripMenuItemEnglish,
             this.toolStripSeparator6,
-            this.toolStripMenuItem3,
-            this.toolStripSeparator7});
+            this.LanguagetoolStripMenuItemTurkish,
+            this.toolStripSeparator7,
+            this.LanguagetoolStripMenuItemSpanish,
+            this.toolStripSeparator8,
+            this.LanguagetoolStripMenuItemFrench,
+            this.toolStripSeparator11,
+            this.LanguagetoolStripMenuItemJapanase,
+            this.toolStripSeparator24});
             this.LanguageToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem";
             this.LanguageToolStripMenuItem.Size = new System.Drawing.Size(127, 27);
@@ -380,31 +386,70 @@
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripMenuItem2
+            // LanguagetoolStripMenuItemEnglish
             // 
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(143, 22);
-            this.toolStripMenuItem2.Text = "English";
+            this.LanguagetoolStripMenuItemEnglish.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LanguagetoolStripMenuItemEnglish.Name = "LanguagetoolStripMenuItemEnglish";
+            this.LanguagetoolStripMenuItemEnglish.Size = new System.Drawing.Size(180, 22);
+            this.LanguagetoolStripMenuItemEnglish.Text = "English";
+            this.LanguagetoolStripMenuItemEnglish.Click += new System.EventHandler(this.LanguagetoolStripMenuItemEnglish_Click);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
-            // toolStripMenuItem3
+            // LanguagetoolStripMenuItemTurkish
             // 
-            this.toolStripMenuItem3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(143, 22);
-            this.toolStripMenuItem3.Text = "Turkish";
+            this.LanguagetoolStripMenuItemTurkish.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LanguagetoolStripMenuItemTurkish.Name = "LanguagetoolStripMenuItemTurkish";
+            this.LanguagetoolStripMenuItemTurkish.Size = new System.Drawing.Size(180, 22);
+            this.LanguagetoolStripMenuItemTurkish.Text = "Turkish";
+            this.LanguagetoolStripMenuItemTurkish.Click += new System.EventHandler(this.LanguagetoolStripMenuItemTurkish_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(177, 6);
+            // 
+            // LanguagetoolStripMenuItemSpanish
+            // 
+            this.LanguagetoolStripMenuItemSpanish.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
+            this.LanguagetoolStripMenuItemSpanish.Name = "LanguagetoolStripMenuItemSpanish";
+            this.LanguagetoolStripMenuItemSpanish.Size = new System.Drawing.Size(180, 22);
+            this.LanguagetoolStripMenuItemSpanish.Text = "Spanish";
+            this.LanguagetoolStripMenuItemSpanish.Click += new System.EventHandler(this.LanguagetoolStripMenuItemSpanish_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(177, 6);
+            // 
+            // LanguagetoolStripMenuItemFrench
+            // 
+            this.LanguagetoolStripMenuItemFrench.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
+            this.LanguagetoolStripMenuItemFrench.Name = "LanguagetoolStripMenuItemFrench";
+            this.LanguagetoolStripMenuItemFrench.Size = new System.Drawing.Size(180, 22);
+            this.LanguagetoolStripMenuItemFrench.Text = "French";
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(177, 6);
+            // 
+            // LanguagetoolStripMenuItemJapanase
+            // 
+            this.LanguagetoolStripMenuItemJapanase.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold);
+            this.LanguagetoolStripMenuItemJapanase.Name = "LanguagetoolStripMenuItemJapanase";
+            this.LanguagetoolStripMenuItemJapanase.Size = new System.Drawing.Size(180, 22);
+            this.LanguagetoolStripMenuItemJapanase.Text = "Japanese";
+            // 
+            // toolStripSeparator24
+            // 
+            this.toolStripSeparator24.Name = "toolStripSeparator24";
+            this.toolStripSeparator24.Size = new System.Drawing.Size(177, 6);
             // 
             // ExitToolStripMenuItem
             // 
@@ -413,6 +458,11 @@
             this.ExitToolStripMenuItem.Size = new System.Drawing.Size(64, 27);
             this.ExitToolStripMenuItem.Text = "Exit";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
             // 
             // AutoGallery
             // 
@@ -439,51 +489,57 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem CarsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ContractToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ReportToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem LanguageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ExitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem CustomersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem UserToolStripMenuItem;
+        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.ToolStripMenuItem CarsToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem ContractToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem ReportToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem LanguageToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem ExitToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem UserToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripMenuItem AddCustomerstoolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem UpdateCustomerstoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem AddCustomerstoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem UpdateCustomerstoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
-        private System.Windows.Forms.ToolStripMenuItem ListCarstoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem ListCarstoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
-        private System.Windows.Forms.ToolStripMenuItem AddCarstoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem AddCarstoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
-        private System.Windows.Forms.ToolStripMenuItem UpdateCarstoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem UpdateCarstoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
-        private System.Windows.Forms.ToolStripMenuItem RentalContracttoolStripMenuItem0;
+        public System.Windows.Forms.ToolStripMenuItem RentalContracttoolStripMenuItem0;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator18;
-        private System.Windows.Forms.ToolStripMenuItem SalesContracttoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem SalesContracttoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator19;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        public System.Windows.Forms.ToolStripMenuItem LanguagetoolStripMenuItemEnglish;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        public System.Windows.Forms.ToolStripMenuItem LanguagetoolStripMenuItemTurkish;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripMenuItem EmployeeToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem EmployeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator20;
-        private System.Windows.Forms.ToolStripMenuItem ListEmployeetoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem ListEmployeetoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator21;
-        private System.Windows.Forms.ToolStripMenuItem AddEmployeetoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem AddEmployeetoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator22;
-        private System.Windows.Forms.ToolStripMenuItem UpdateEmployeetoolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem UpdateEmployeetoolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator23;
         private System.Windows.Forms.ToolStripMenuItem UsertoolStripMenuItemName;
         private System.Windows.Forms.ToolStripMenuItem UsertoolStripMenuItemBranch;
         private System.Windows.Forms.ToolStripMenuItem UsertoolStripMenuItemType;
+        public System.Windows.Forms.ToolStripMenuItem CustomersToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem LanguagetoolStripMenuItemSpanish;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        public System.Windows.Forms.ToolStripMenuItem LanguagetoolStripMenuItemFrench;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
+        public System.Windows.Forms.ToolStripMenuItem LanguagetoolStripMenuItemJapanase;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator24;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
     }
 }
 

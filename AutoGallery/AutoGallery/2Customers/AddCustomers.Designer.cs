@@ -255,15 +255,15 @@
         #endregion
 
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
-        private System.Windows.Forms.Label AddCustomersLabelSecurityNumber;
-        private System.Windows.Forms.Label AddCustomersLabelNameSurname;
-        private System.Windows.Forms.Label AddCustomersLabelDateofBirth;
-        private System.Windows.Forms.Label AddCustomersLabelTelephone;
-        private System.Windows.Forms.Label AddCustomersLabelDrivingLicenseNunmber;
-        private System.Windows.Forms.Label AddCustomersLabelDriversLicenseDate;
-        private System.Windows.Forms.Label AddCustomersLabelEMail;
-        private System.Windows.Forms.Label AddCustomersLabelAddress;
-        private System.Windows.Forms.Button AddCustomersButtonAddCustomers;
+        public System.Windows.Forms.Label AddCustomersLabelSecurityNumber;
+        public System.Windows.Forms.Label AddCustomersLabelNameSurname;
+        public System.Windows.Forms.Label AddCustomersLabelDateofBirth;
+        public System.Windows.Forms.Label AddCustomersLabelTelephone;
+        public System.Windows.Forms.Label AddCustomersLabelDrivingLicenseNunmber;
+        public System.Windows.Forms.Label AddCustomersLabelDriversLicenseDate;
+        public System.Windows.Forms.Label AddCustomersLabelEMail;
+        public System.Windows.Forms.Label AddCustomersLabelAddress;
+        public System.Windows.Forms.Button AddCustomersButtonAddCustomers;
         private System.Windows.Forms.RichTextBox AddCustomersTextBoxAddress;
         private System.Windows.Forms.MaskedTextBox AddCustomersMaskedTextBoxSecurityNumber;
         private System.Windows.Forms.TextBox AddCustomersTextBoxNameSurname;

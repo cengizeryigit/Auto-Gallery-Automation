@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCarsButtonAddCars" xml:space="preserve">
+    <value>ARABA EKLE</value>
+  </data>
+  <data name="AddCarsLabelColour" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="AddCarsLabelFuel" xml:space="preserve">
+    <value>Yakıt</value>
+  </data>
+  <data name="AddCarsLabelKm" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="AddCarsLabelPlate" xml:space="preserve">
+    <value>Plaka</value>
+  </data>
+  <data name="AddCarsLabelRentMoney" xml:space="preserve">
+    <value>Kiralık Ücreti</value>
+  </data>
+  <data name="AddCarsLabelSalesMoney" xml:space="preserve">
+    <value>Satış Ücreti</value>
+  </data>
+  <data name="AddCarsLabelYear" xml:space="preserve">
+    <value>Yılı</value>
+  </data>
+  <data name="AddCarstoolStripMenuItem" xml:space="preserve">
+    <value>Araba Ekle</value>
+  </data>
+  <data name="AddCustomersButtonAddCustomers" xml:space="preserve">
+    <value>Müşteri Ekle</value>
+  </data>
+  <data name="AddCustomersLabelAddress" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AddCustomersLabelDateofBirth" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+  </data>
+  <data name="AddCustomersLabelDriversLicenseDate" xml:space="preserve">
+    <value>Lisans Tarihi</value>
+  </data>
+  <data name="AddCustomersLabelDrivingLicenseNunmber" xml:space="preserve">
+    <value>Lisans Numarası</value>
+  </data>
+  <data name="AddCustomersLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="AddCustomersLabelNameSurname" xml:space="preserve">
+    <value>Adı Soyadı</value>
+  </data>
+  <data name="AddCustomersLabelSecurityNumber" xml:space="preserve">
+    <value>Kimlik Numarası</value>
+  </data>
+  <data name="AddCustomersLabelTelephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="AddCustomerstoolStripMenuItem" xml:space="preserve">
+    <value>Müşteri Ekle</value>
+  </data>
+  <data name="AddEmployeeButtonAddEmployee" xml:space="preserve">
+    <value>PERSONEL EKLE</value>
+  </data>
+  <data name="AddEmployeeLabelPassword" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="AddEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Personel Ekle</value>
+  </data>
+  <data name="CarsToolStripMenuItem" xml:space="preserve">
+    <value>Arabalar</value>
+  </data>
+  <data name="ChooseCustomersButtonListCustomer" xml:space="preserve">
+    <value>Müşteri Listele</value>
+  </data>
+  <data name="ContractToolStripMenuItem" xml:space="preserve">
+    <value>Sözleşme</value>
+  </data>
+  <data name="CustomersToolStripMenuItem" xml:space="preserve">
+    <value>Müşteriler</value>
+  </data>
+  <data name="EmployeeToolStripMenuItem" xml:space="preserve">
+    <value>Personel</value>
+  </data>
+  <data name="ExitToolStripMenuItem" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="LanguageToolStripMenuItem" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemEnglish" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemFrench" xml:space="preserve">
+    <value>Fransızca</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemJapanase" xml:space="preserve">
+    <value>Japonca</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemSpanish" xml:space="preserve">
+    <value>İspanyolca</value>
+  </data>
+  <data name="LanguagetoolStripMenuItemTurkish" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="ListAllCarsButtonListAllCars" xml:space="preserve">
+    <value>BÜTÜN ARABALARI LİSTELE</value>
+  </data>
+  <data name="ListAllEmployeeButtonListAllEmployee" xml:space="preserve">
+    <value>BÜTÜN PERSONELLERİ LİSTELE</value>
+  </data>
+  <data name="ListCarsButtonListCars" xml:space="preserve">
+    <value>ARABA LİSTELE</value>
+  </data>
+  <data name="ListCarstoolStripMenuItem" xml:space="preserve">
+    <value>Araba Listele</value>
+  </data>
+  <data name="ListEmployeeButtonListEmployee" xml:space="preserve">
+    <value>PERSONEL LİSTELE</value>
+  </data>
+  <data name="ListEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Personel Listele</value>
+  </data>
+  <data name="LoginButtonLogin" xml:space="preserve">
+    <value>GİRİŞ</value>
+  </data>
+  <data name="LoginLabelClearFields" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="LoginLabelExit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="LoginLabelLogin" xml:space="preserve">
+    <value>GİRİŞ</value>
+  </data>
+  <data name="radioButton1" xml:space="preserve">
+    <value>Araç Kiralayan Müşteriler</value>
+  </data>
+  <data name="radioButton10" xml:space="preserve">
+    <value>En Az Araç Kiralayan Şube</value>
+  </data>
+  <data name="radioButton11" xml:space="preserve">
+    <value>En Az Araç Satan Şube</value>
+  </data>
+  <data name="radioButton2" xml:space="preserve">
+    <value>En Çok Araç Kiralayan Müşteri</value>
+  </data>
+  <data name="radioButton3" xml:space="preserve">
+    <value>Araç Satın Alan Müşteriler</value>
+  </data>
+  <data name="radioButton4" xml:space="preserve">
+    <value>En Çok Araç Kiralayan Personel</value>
+  </data>
+  <data name="radioButton5" xml:space="preserve">
+    <value>En Çok Araç Satan Personel</value>
+  </data>
+  <data name="radioButton6" xml:space="preserve">
+    <value>En Az Araç Kiralayan Personel</value>
+  </data>
+  <data name="radioButton7" xml:space="preserve">
+    <value>En Az Araç Satan Personel</value>
+  </data>
+  <data name="radioButton8" xml:space="preserve">
+    <value>En Çok Araç Kiralayan Şube</value>
+  </data>
+  <data name="radioButton9" xml:space="preserve">
+    <value>En Çok Araç Satan Şube</value>
+  </data>
+  <data name="RentalCarsButtonListCar" xml:space="preserve">
+    <value>Araba Listele</value>
+  </data>
+  <data name="RentalContactButtonCalculate" xml:space="preserve">
+    <value>Hesapla</value>
+  </data>
+  <data name="RentalContactButtonCar" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="RentalContactButtonCustomer" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="RentalContactButtonListRentalContract" xml:space="preserve">
+    <value>Kiralık Sözleşme Listele</value>
+  </data>
+  <data name="RentalContactButtonListRentCar" xml:space="preserve">
+    <value>Kiralanan Arabaları Listele</value>
+  </data>
+  <data name="RentalContactButtonRentalContact" xml:space="preserve">
+    <value>KİRALIK SÖZLEŞMESİ</value>
+  </data>
+  <data name="RentalContactButtonVehicleDelivered" xml:space="preserve">
+    <value>Araç Teslimi</value>
+  </data>
+  <data name="RentalContractLabelAdress" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="RentalContractLabelBrand" xml:space="preserve">
+    <value>Marka</value>
+  </data>
+  <data name="RentalContractLabelFirstDay" xml:space="preserve">
+    <value>İlk Gün</value>
+  </data>
+  <data name="RentalContractLabelLastDay" xml:space="preserve">
+    <value>Son Gün</value>
+  </data>
+  <data name="RentalContractLabelModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="RentalContractLabelNameSurname" xml:space="preserve">
+    <value>Adı Soyadı</value>
+  </data>
+  <data name="RentalContractLabelPlate" xml:space="preserve">
+    <value>Plaka</value>
+  </data>
+  <data name="RentalContractLabelRentMoney" xml:space="preserve">
+    <value>Kiralık Ücreti</value>
+  </data>
+  <data name="RentalContractLabelSecurityNumber" xml:space="preserve">
+    <value>Kimlik Numarası</value>
+  </data>
+  <data name="RentalContractLabelTelephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="RentalContractLabelTotalFee" xml:space="preserve">
+    <value>Toplam Tutar</value>
+  </data>
+  <data name="RentalContracttoolStripMenuItem0" xml:space="preserve">
+    <value>Kiralık Sözleşme</value>
+  </data>
+  <data name="ReportButtonReport" xml:space="preserve">
+    <value>RAPORLA</value>
+  </data>
+  <data name="ReportToolStripMenuItem" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="SalesCarsButtonListCar" xml:space="preserve">
+    <value>Araba Listele</value>
+  </data>
+  <data name="SalesContactButtonCar" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="SalesContactButtonCustomer" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="SalesContactButtonRentalContact" xml:space="preserve">
+    <value>SATIŞ SÖZLEŞMESİ</value>
+  </data>
+  <data name="SalesContractLabelPurchaseDate" xml:space="preserve">
+    <value>İşlem Tarihi</value>
+  </data>
+  <data name="SalesContractLabelSalesMoney" xml:space="preserve">
+    <value>Satış Ücreti</value>
+  </data>
+  <data name="SalesContracttoolStripMenuItem" xml:space="preserve">
+    <value>Satış Sözleşme</value>
+  </data>
+  <data name="SalesCustomersButtonListCustomer" xml:space="preserve">
+    <value>Müşteri Listele</value>
+  </data>
+  <data name="UpdateCarsButtonUpdateCars" xml:space="preserve">
+    <value>ARABA GÜNCELLE</value>
+  </data>
+  <data name="UpdateCarstoolStripMenuItem" xml:space="preserve">
+    <value>Araba Güncelle</value>
+  </data>
+  <data name="UpdateCustomersButtonUpdateCustomers" xml:space="preserve">
+    <value>Müşteri Güncelle</value>
+  </data>
+  <data name="UpdateCustomersLabelAddress" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="UpdateCustomersLabelDateofBirth" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+  </data>
+  <data name="UpdateCustomersLabelDriversLicenseDate" xml:space="preserve">
+    <value>Lisans Tarihi</value>
+  </data>
+  <data name="UpdateCustomersLabelDrivingLicenseNunmber" xml:space="preserve">
+    <value>Lisans Numarası</value>
+  </data>
+  <data name="UpdateCustomersLabelEMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="UpdateCustomersLabelNameSurname" xml:space="preserve">
+    <value>Adı Soyadı</value>
+  </data>
+  <data name="UpdateCustomersLabelSecurityNumber" xml:space="preserve">
+    <value>Kimlik Numarası</value>
+  </data>
+  <data name="UpdateCustomersLabelTelephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="UpdateCustomerstoolStripMenuItem" xml:space="preserve">
+    <value>Müşteri Güncelle</value>
+  </data>
+  <data name="UpdateEmployeeButtonUpdateEmployee" xml:space="preserve">
+    <value>PERSONEL GÜNCELLE</value>
+  </data>
+  <data name="UpdateEmployeetoolStripMenuItem" xml:space="preserve">
+    <value>Personel Güncelle</value>
+  </data>
+  <data name="UserToolStripMenuItem" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Wronglogin" xml:space="preserve">
+    <value>Kullanıcı Bulunamadı</value>
+  </data>
+</root>

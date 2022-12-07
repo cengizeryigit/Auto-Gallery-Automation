@@ -263,14 +263,14 @@
         private System.Windows.Forms.TextBox UpdateCustomersTextBoxNameSurname;
         private System.Windows.Forms.MaskedTextBox UpdateCustomersMaskedTextBoxSecurityNumber;
         private System.Windows.Forms.RichTextBox UpdateCustomersTextBoxAddress;
-        private System.Windows.Forms.Button UpdateCustomersButtonUpdateCustomers;
-        private System.Windows.Forms.Label UpdateCustomersLabelAddress;
-        private System.Windows.Forms.Label UpdateCustomersLabelEMail;
-        private System.Windows.Forms.Label UpdateCustomersLabelDriversLicenseDate;
-        private System.Windows.Forms.Label UpdateCustomersLabelDrivingLicenseNunmber;
-        private System.Windows.Forms.Label UpdateCustomersLabelTelephone;
-        private System.Windows.Forms.Label UpdateCustomersLabelDateofBirth;
-        private System.Windows.Forms.Label UpdateCustomersLabelNameSurname;
-        private System.Windows.Forms.Label UpdateCustomersLabelSecurityNumber;
+        public System.Windows.Forms.Button UpdateCustomersButtonUpdateCustomers;
+        public System.Windows.Forms.Label UpdateCustomersLabelAddress;
+        public System.Windows.Forms.Label UpdateCustomersLabelEMail;
+        public System.Windows.Forms.Label UpdateCustomersLabelDriversLicenseDate;
+        public System.Windows.Forms.Label UpdateCustomersLabelDrivingLicenseNunmber;
+        public System.Windows.Forms.Label UpdateCustomersLabelTelephone;
+        public System.Windows.Forms.Label UpdateCustomersLabelDateofBirth;
+        public System.Windows.Forms.Label UpdateCustomersLabelNameSurname;
+        public System.Windows.Forms.Label UpdateCustomersLabelSecurityNumber;
     }
 }

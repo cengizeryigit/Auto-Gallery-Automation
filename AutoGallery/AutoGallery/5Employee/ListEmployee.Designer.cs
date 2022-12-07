@@ -32,7 +32,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ListEmployeeComboBox = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ListAllCarsButtonListAllCars = new System.Windows.Forms.Button();
+            this.ListAllEmployeeButtonListAllEmployee = new System.Windows.Forms.Button();
             this.ListEmployeeButtonListEmployee = new System.Windows.Forms.Button();
             this.AutoGallerydataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -68,19 +68,19 @@
             this.panel1.Size = new System.Drawing.Size(303, 1);
             this.panel1.TabIndex = 33;
             // 
-            // ListAllCarsButtonListAllCars
+            // ListAllEmployeeButtonListAllEmployee
             // 
-            this.ListAllCarsButtonListAllCars.BackColor = System.Drawing.Color.Black;
-            this.ListAllCarsButtonListAllCars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ListAllCarsButtonListAllCars.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ListAllCarsButtonListAllCars.ForeColor = System.Drawing.Color.White;
-            this.ListAllCarsButtonListAllCars.Location = new System.Drawing.Point(429, 56);
-            this.ListAllCarsButtonListAllCars.Name = "ListAllCarsButtonListAllCars";
-            this.ListAllCarsButtonListAllCars.Size = new System.Drawing.Size(200, 34);
-            this.ListAllCarsButtonListAllCars.TabIndex = 31;
-            this.ListAllCarsButtonListAllCars.Text = "LIST ALL EMPLOYEE";
-            this.ListAllCarsButtonListAllCars.UseVisualStyleBackColor = false;
-            this.ListAllCarsButtonListAllCars.Click += new System.EventHandler(this.ListAllCarsButtonListAllCars_Click);
+            this.ListAllEmployeeButtonListAllEmployee.BackColor = System.Drawing.Color.Black;
+            this.ListAllEmployeeButtonListAllEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ListAllEmployeeButtonListAllEmployee.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ListAllEmployeeButtonListAllEmployee.ForeColor = System.Drawing.Color.White;
+            this.ListAllEmployeeButtonListAllEmployee.Location = new System.Drawing.Point(429, 56);
+            this.ListAllEmployeeButtonListAllEmployee.Name = "ListAllEmployeeButtonListAllEmployee";
+            this.ListAllEmployeeButtonListAllEmployee.Size = new System.Drawing.Size(200, 34);
+            this.ListAllEmployeeButtonListAllEmployee.TabIndex = 31;
+            this.ListAllEmployeeButtonListAllEmployee.Text = "LIST ALL EMPLOYEE";
+            this.ListAllEmployeeButtonListAllEmployee.UseVisualStyleBackColor = false;
+            this.ListAllEmployeeButtonListAllEmployee.Click += new System.EventHandler(this.ListAllEmployeeButtonListAllEmployee_Click);
             // 
             // ListEmployeeButtonListEmployee
             // 
@@ -114,7 +114,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ListEmployeeComboBox);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.ListAllCarsButtonListAllCars);
+            this.Controls.Add(this.ListAllEmployeeButtonListAllEmployee);
             this.Controls.Add(this.ListEmployeeButtonListEmployee);
             this.Controls.Add(this.AutoGallerydataGridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -133,8 +133,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         public System.Windows.Forms.ComboBox ListEmployeeComboBox;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button ListAllCarsButtonListAllCars;
-        private System.Windows.Forms.Button ListEmployeeButtonListEmployee;
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
+        public System.Windows.Forms.Button ListAllEmployeeButtonListAllEmployee;
+        public System.Windows.Forms.Button ListEmployeeButtonListEmployee;
     }
 }

@@ -306,8 +306,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button UpdateEmployeeButtonUpdateEmployee;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         public System.Windows.Forms.ComboBox UpdateEmployeeComboBoxEmployeType;
@@ -319,15 +317,16 @@
         private System.Windows.Forms.TextBox UpdateEmployeeTextBoxEMail;
         private System.Windows.Forms.TextBox UpdateEmployeeTextBoxAdress;
         private System.Windows.Forms.TextBox UpdateEmployeeTextBoxTelephone;
-        private System.Windows.Forms.Label UpdateEmployeeLabelPassword;
         private System.Windows.Forms.TextBox UpdateEmployeeTextBoxNameSurname;
-        private System.Windows.Forms.Label UpdateEmployeeLabelEMail;
-        private System.Windows.Forms.Label UpdateEmployeeLabelDateofBirth;
-        private System.Windows.Forms.Label UpdateEmployeeLabelAdress;
         private System.Windows.Forms.TextBox UpdateEmployeeTextBoxSecurityNumber;
-        private System.Windows.Forms.Label UpdateEmployeeLabelTelephone;
-        private System.Windows.Forms.Label UpdateEmployeeLabelNameSurname;
-        private System.Windows.Forms.Label UpdateEmployeeLabelSecurityNumber;
         private System.Windows.Forms.DataGridView AutoGallerydataGridView;
+        public System.Windows.Forms.Button UpdateEmployeeButtonUpdateEmployee;
+        public System.Windows.Forms.Label UpdateEmployeeLabelPassword;
+        public System.Windows.Forms.Label UpdateEmployeeLabelEMail;
+        public System.Windows.Forms.Label UpdateEmployeeLabelDateofBirth;
+        public System.Windows.Forms.Label UpdateEmployeeLabelAdress;
+        public System.Windows.Forms.Label UpdateEmployeeLabelTelephone;
+        public System.Windows.Forms.Label UpdateEmployeeLabelNameSurname;
+        public System.Windows.Forms.Label UpdateEmployeeLabelSecurityNumber;
     }
 }

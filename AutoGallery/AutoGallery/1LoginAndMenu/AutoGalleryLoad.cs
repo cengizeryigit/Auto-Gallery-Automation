@@ -16,5 +16,10 @@ namespace AutoGallery
         {
             InitializeComponent();
         }
+
+        private void AutoGalleryLoad_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
